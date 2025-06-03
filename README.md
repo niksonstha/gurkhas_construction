@@ -20,20 +20,44 @@ A responsive and modern construction company website built with Next.js 14, Tail
 Next.js
 
 📁 Folder Structure
-.
-├── app/ # Next.js app directory
-│ ├── layout.tsx # Layout wrapper
-│ ├── page.tsx # Home page
-│ └── ... # Other pages like /about, /contact, etc.
-├── components/ # Reusable UI components
-│ ├── Header.tsx
-│ ├── Footer.tsx
-│ └── ...
-├── public/ # Static assets (images, logo, etc.)
-│ └── assets/
-├── styles/ # Global styles if needed
-├── tailwind.config.js # Tailwind config
-└── README.md
+gurkhas-construction/
+├── app/                        # Next.js App Router pages
+│   ├── layout.tsx              # Root layout with Header/Footer
+│   ├── page.tsx                # Home page
+│   ├── about/                  # About page
+│   │   └── page.tsx
+│   ├── services/               # Services page
+│   │   └── page.tsx
+│   ├── projects/               # Projects page
+│   │   └── page.tsx
+│   ├── contact/                # Contact page
+│   │   └── page.tsx
+│   └── globals.css             # Global Tailwind styles (optional)
+│
+├── components/                 # Reusable UI components
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── HeroSection.tsx
+│   ├── ServiceCard.tsx
+│   ├── ProjectGallery.tsx
+│   └── ContactForm.tsx
+│
+├── public/                     # Static assets
+│   └── assets/
+│       ├── logo.webp
+│       ├── banner.webp
+│       └── other-images/
+│
+├── styles/                     # Optional global or utility styles
+│   └── fonts.css               # Custom font (e.g., Poppins)
+│
+├── tailwind.config.js          # Tailwind CSS config
+├── postcss.config.js           # PostCSS config
+├── next.config.js              # Next.js config
+├── tsconfig.json               # TypeScript config (if using TS)
+├── package.json                # Project metadata and scripts
+└── README.md                   # Project documentation
+
 
 🔧 Getting Started
 
