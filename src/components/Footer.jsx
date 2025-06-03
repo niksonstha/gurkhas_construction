@@ -65,15 +65,22 @@ const Footer = () => {
           <ul className="space-y-3 text-sm text-gray-300">
             <li className="flex items-start gap-2">
               <FaMapMarkerAlt className="mt-1 text-yellow-400" />
-              123 Builder Street, Cityname, Country
+              <a
+                href="https://g.co/kgs/wRM36du"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-yellow-400"
+              >
+                25 Courtfield Avenue, Harrow HA1 2JX, United Kingdom
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-yellow-400" />
-              +1 (123) 456-7890
+              +44 7427 227521 | +44 7578 494841
             </li>
             <li className="flex items-center gap-2">
               <MdEmail className="text-yellow-400" />
-              info@gurkhasconstruction.com
+              info@gurkhasconstruction.co.uk
             </li>
           </ul>
         </div>
@@ -82,20 +89,40 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
           <div className="flex space-x-4 text-xl">
-            <a href="#" aria-label="Facebook" className="hover:text-yellow-400">
+            <a
+              href="https://www.facebook.com/profile.php?id=100057628832417"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="hover:text-yellow-400"
+            >
               <FaFacebookF />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/consgurkhas/profilecard/?igsh=aThucHVkZ2J4dTE4"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="hover:text-yellow-400"
             >
               <FaInstagram />
             </a>
-            <a href="#" aria-label="YouTube" className="hover:text-yellow-400">
+            <a
+              href="https://www.youtube.com/@gurkhasconstruction7640"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="hover:text-yellow-400"
+            >
               <FaYoutube />
             </a>
-            <a href="#" aria-label="TikTok" className="hover:text-yellow-400">
+            <a
+              href="https://www.tiktok.com/@gurkhascons?_t=8se5CRdIIr2&_r=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+              className="hover:text-yellow-400"
+            >
               <FaTiktok />
             </a>
           </div>

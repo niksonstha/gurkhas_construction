@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import ServiceCard from "@/components/ServiceCard";
 import Link from "next/link";
 import Projects from "./projects/page";
+import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (
@@ -13,20 +14,41 @@ export default function HomePage() {
 
       {/* About Brief */}
       <section className="py-16 bg-gray-100 text-center px-6">
-        <h2 className="text-3xl font-semibold mb-4">
+        <motion.h2
+          className="text-3xl font-semibold mb-4"
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           Welcome to Gurkhas Construction
-        </h2>
-        <p className="max-w-3xl mx-auto text-gray-600">
+        </motion.h2>
+
+        <motion.p
+          className="max-w-3xl mx-auto text-gray-600"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
           We are a trusted name in construction, committed to quality, safety,
           and customer satisfaction. With decades of experience and a skilled
           team, we bring your visions to life.
-        </p>
-        <Link
-          href="/about"
-          className="inline-block mt-6 bg-yellow-500 text-white px-6 py-2 rounded-md hover:bg-yellow-600 transition"
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          viewport={{ once: true }}
         >
-          Learn More About Us
-        </Link>
+          <Link
+            href="/about"
+            className="inline-block mt-6 bg-yellow-500 text-white px-6 py-2 rounded-md hover:bg-yellow-600 transition"
+          >
+            Learn More About Us
+          </Link>
+        </motion.div>
       </section>
 
       {/* Services Section */}
@@ -52,9 +74,6 @@ export default function HomePage() {
 
       {/* Projects Section */}
       <section className="py-16 bg-gray-50 px-6">
-        <h2 className="text-3xl font-semibold text-center mb-12">
-          Recent Projects
-        </h2>
         <Projects />
         <div className="text-center mt-8">
           <Link
