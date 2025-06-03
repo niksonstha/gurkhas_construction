@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🏗️ Gurkhas Construction Website
+A responsive and modern construction company website built with Next.js 14, Tailwind CSS 4, and React Icons.
 
-## Getting Started
+<!-- Optional: Replace with a real image -->
 
-First, run the development server:
+✨ Features
+⚡ Lightning-fast performance with Next.js App Router
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🎨 Clean and modern UI using Tailwind CSS 4
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📱 Fully responsive for mobile, tablet, and desktop
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🧭 Dynamic routing with SEO-friendly pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📞 Call-to-action & contact form
 
-## Learn More
+🔗 Social media integration (Facebook, Instagram, TikTok, YouTube)
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Technologies Used
+Next.js 14
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tailwind CSS 4
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+React Icons
 
-## Deploy on Vercel
+TypeScript (optional if enabled)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Lucide or Heroicons (optional)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📁 Folder Structure
+bash
+Copy
+Edit
+.
+├── app/ # Next.js app directory
+│ ├── layout.tsx # Layout wrapper
+│ ├── page.tsx # Home page
+│ └── ... # Other pages like /about, /contact, etc.
+├── components/ # Reusable UI components
+│ ├── Header.tsx
+│ ├── Footer.tsx
+│ └── ...
+├── public/ # Static assets (images, logo, etc.)
+│ └── assets/
+├── styles/ # Global styles if needed
+├── tailwind.config.js # Tailwind config
+└── README.md
+
+🔧 Getting Started
+
+1. Clone the repository
+   git clone https://github.com/your-username/gurkhas-construction.git
+   cd gurkhas-construction
+
+2. Install dependencies
+   npm install
+
+3. Run the development server
+   npm run dev
+
+Visit http://localhost:3000 to see the app.
+
+👷‍♂️ Credits
+Built with ❤️ by Gurkhas Construction development team.
+
+📝 License
+This project is licensed under the MIT License.
