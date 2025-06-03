@@ -1,5 +1,5 @@
 🏗️ Gurkhas Construction Website
-A responsive and modern construction company website built with Next.js 14, Tailwind CSS 4, and React Icons.
+A responsive and modern construction company website built with Next.js 15, Tailwind CSS 4, and React Icons.
 
 <!-- Optional: Replace with a real image -->
 
@@ -19,6 +19,7 @@ A responsive and modern construction company website built with Next.js 14, Tail
 🚀 Technologies Used
 Next.js
 
+```bash
 📁 Folder Structure
 gurkhas-construction/
 ├── app/                        # Next.js App Router pages
@@ -70,6 +71,7 @@ gurkhas-construction/
 
 3. Run the development server
    npm run dev
+```
 
 Visit http://localhost:3000 to see the app.
 
