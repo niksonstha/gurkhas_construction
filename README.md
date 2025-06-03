@@ -28,10 +28,6 @@ TypeScript (optional if enabled)
 Lucide or Heroicons (optional)
 
 📁 Folder Structure
-bash
-Copy
-Edit
-.
 ├── app/ # Next.js app directory
 │ ├── layout.tsx # Layout wrapper
 │ ├── page.tsx # Home page
