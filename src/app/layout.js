@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata = {
   title: "Gurkhas Construction",
   description: "Building with precision and trust.",
+  icons: {
+    icon: "/assets/logo.webp",
+  },
 };
 
 export default function RootLayout({ children }) {
