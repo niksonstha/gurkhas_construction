@@ -17,17 +17,10 @@ A responsive and modern construction company website built with Next.js 14, Tail
 🔗 Social media integration (Facebook, Instagram, TikTok, YouTube)
 
 🚀 Technologies Used
-Next.js 14
-
-Tailwind CSS 4
-
-React Icons
-
-TypeScript (optional if enabled)
-
-Lucide or Heroicons (optional)
+Next.js
 
 📁 Folder Structure
+.
 ├── app/ # Next.js app directory
 │ ├── layout.tsx # Layout wrapper
 │ ├── page.tsx # Home page
